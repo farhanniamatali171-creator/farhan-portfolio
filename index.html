@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Farhan - Backend Developer</title>
+<meta name="description" content="Muhammad Farhan — Backend Developer building Java Spring Boot APIs and AI-integrated backend systems.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand"><span class="dot"></span>farhan.dev</div>
+    <div class="navlinks">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#future">future</a>
+      <a href="#contact">contact</a>
+    </div>
+    <a class="nav-cta" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge"><span class="code">200 OK</span> — open to opportunities</span>
+        <h1>Muhammad <span>Farhan</span></h1>
+        <p class="role"><strong>Backend Developer</strong> — BSSE Student, COMSATS University Islamabad (Lahore Campus)</p>
+        <p class="lede">
+          I build secure, production-ready backend APIs and I'm extending that
+          into AI-integrated backend systems: authentication, data pipelines,
+          and services that hold up under real traffic.
+        </p>
+        <div class="stack-row">
+          <span class="chip">Java</span>
+          <span class="chip">Spring Boot</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">REST APIs</span>
+          <span class="chip">AI Integration</span>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+          <span class="term-title">zsh — farhan@backend</span>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">$</span> curl <span class="path">https://api.farhan.dev/profile</span></div>
+          <div class="term-line">&nbsp;</div>
+          <div class="term-line">{</div>
+          <div class="term-line">&nbsp;&nbsp;<span class="json-key">"name"</span><span class="json-punc">:</span> <span class="json-str">"Muhammad Farhan"</span><span class="json-punc">,</span></div>
+          <div class="term-line">&nbsp;&nbsp;<span class="json-key">"role"</span><span class="json-punc">:</span> <span class="json-str">"Backend Developer"</span><span class="json-punc">,</span></div>
+          <div class="term-line">&nbsp;&nbsp;<span class="json-key">"stack"</span><span class="json-punc">:</span> [<span class="json-str">"Java"</span>, <span class="json-str">"Spring Boot"</span>, <span class="json-str">"PostgreSQL"</span>]<span class="json-punc">,</span></div>
+          <div class="term-line">&nbsp;&nbsp;<span class="json-key">"status"</span><span class="json-punc">:</span> <span class="json-str">"open_to_work"</span></div>
+          <div class="term-line">}</div>
+          <div class="term-line">&nbsp;</div>
+          <div class="term-line"><span class="prompt">$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="eyebrow">// about</span>
+        <h2 class="section-title">Who I am</h2>
+        <p>
+          I'm Muhammad Farhan, a BS Software Engineering student at COMSATS
+          University Islamabad, Lahore Campus. My focus is backend
+          development designing REST APIs, modeling relational data in
+          PostgreSQL, and shipping services with Spring Boot that are secure
+          by default, not as an afterthought.
+        </p>
+        <p>
+          Right now I'm going deeper on authentication and authorization
+          patterns, async processing, and wiring AI capabilities into
+          backend systems rather than just calling an API from the frontend.
+        </p>
+      </div>
+
+      <div class="focus-list">
+        <h3>Current focus</h3>
+        <ul>
+          <li>Backend Development</li>
+          <li>Spring Boot &amp; Java</li>
+          <li>PostgreSQL &amp; data modeling</li>
+          <li>Auth: JWT / Spring Security</li>
+          <li>AI-integrated backend systems</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <div class="wrap">
+      <span class="eyebrow">// projects</span>
+      <h2 class="section-title">What I've shipped</h2>
+
+      <div class="endpoint-card">
+        <div class="endpoint-head">
+          <span class="method">GET</span>
+          <span class="route">/projects/spring-security-jwt-api</span>
+          <span class="status-tag">200 OK</span>
+        </div>
+        <p>
+          Secure REST API built with Spring Boot implementing JWT
+          authentication and authorization, protected routes, user
+          registration, login, and Swagger documentation.
+        </p>
+        <a class="view-src" href="https://github.com/farhanniamatali171-creator/spring-security-jwt" target="_blank" rel="noopener">
+          View source code &rarr;
+        </a>
+      </div>
+
+      <div class="endpoint-card">
+        <div class="endpoint-head">
+          <span class="method">GET</span>
+          <span class="route">/projects/pdf-report-generator</span>
+          <span class="status-tag">200 OK</span>
+        </div>
+        <p>
+          Backend service that generates PDF reports asynchronously using
+          Spring Boot, PostgreSQL, and background job processing.
+        </p>
+        <a class="view-src" href="https://github.com/farhanniamatali171-creator/pdf-report-generator" target="_blank" rel="noopener">
+          View source code &rarr;
+        </a>
+      </div>
+
+      <div class="endpoint-card">
+        <div class="endpoint-head">
+          <span class="method">GET</span>
+          <span class="route">/projects/async-scraper-api</span>
+          <span class="status-tag">200 OK</span>
+        </div>
+        <p>
+          Java-based web scraper that extracts book data, processes records
+          asynchronously, and exposes structured results through an API
+          workflow.
+        </p>
+        <a class="view-src" href="https://github.com/farhanniamatali171-creator/async-scraper-api/tree/main/async-scraper-api" target="_blank" rel="noopener">
+          View source code &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FUTURE WORK ============ -->
+  <section id="future" class="tight">
+    <div class="wrap">
+      <span class="eyebrow">// roadmap</span>
+      <h2 class="section-title">What's next</h2>
+      <div class="future-grid">
+        <div class="future-card">
+          <span class="badge pending">202 accepted</span>
+          <h3>Capstone Project</h3>
+          <p>My final-year capstone build will be documented and linked here as it progresses.</p>
+        </div>
+        <div class="future-card">
+          <span class="badge pending">202 accepted</span>
+          <h3>Technical Articles &amp; Posts</h3>
+          <p>Write-ups on backend architecture, Spring Security, and AI-integration patterns coming soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / LINKS ============ -->
+  <section id="contact">
+    <div class="wrap">
+      <span class="eyebrow">// connect</span>
+      <h2 class="section-title">Get in touch</h2>
+
+      <a class="link-card" href="https://github.com/farhanniamatali171-creator" target="_blank" rel="noopener">
+    <span class="label">GitHub</span>
+    <span class="sub">@farhanniamatali171-creator</span>
+</a>
+
+<a class="link-card" href="https://www.linkedin.com/in/muhammad-farhan-576156409/" target="_blank" rel="noopener">
+    <span class="label">LinkedIn</span>
+    <span class="sub">muhammad-farhan-576156409</span>
+</a>
+
+<a class="link-card" href="FarhanCV.pdf" target="_blank" rel="noopener">
+    <span class="label">Resume / CV</span>
+    <span class="sub">View PDF</span>
+</a>
+
+<a class="link-card" href="mailto:farhanniamatali171@gmail.com">
+    <span class="label">Email</span>
+    <span class="sub">farhanniamatali171@gmail.com</span>
+</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Muhammad Farhan</span>
+    <span>Built with Java in one hand, HTML in the other.</span>
+  </div>
+</footer>
+
+</body>
+</html>
